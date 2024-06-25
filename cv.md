@@ -1,6 +1,11 @@
 # Sardor Khomidjonov
-
-![Sardor](https://github.com/sardornext/sardornext/blob/main/IMG_20190316_171557-001.jpg)
+<style>
+.img-resize {
+    width: 200px;
+    height: auto; /* Maintain aspect ratio */
+}
+</style>
+![Sardor](https://github.com/sardornext/sardornext/blob/main/IMG_20190316_171557-001.jpg){: .img-resize}
 
 ## Contact Information
 - **Email:** sardornext@gmail.com
