@@ -61,6 +61,7 @@ Management Development Institute of Singapore in Tashkent
 - Web development
 - Open-source projects
 - Travel and photography
+- Algorithms
 
 
 ## Projects
