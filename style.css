@@ -1,0 +1,140 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #d6efd8;
+}
+
+/* Container styles */
+.container {
+  margin: 0 auto;
+  background-color: #d6efd8;
+}
+
+/* Header styles */
+
+.nav-ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 20px;
+  gap: 32px;
+  margin: 32px 0;
+  list-style: none;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.nav-ul li a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.nav-ul li a:hover {
+  color: #007bff;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-around;
+}
+.hero-right {
+  flex: 2;
+    padding: 40px;
+}
+
+.btn-hi {
+  background-color: #FFDDBF;
+  color: #403930;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px 24px;
+    font-family: eczar;
+}
+
+.btn-hi:hover {
+  background-color: #FFDDBF;
+  color: #403930;
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #403930;
+    font-family: eczar;
+    
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.profile-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Main sections styles */
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Contact info styles */
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact ul li {
+  margin-bottom: 10px;
+}
+
+#contact ul li strong {
+  font-weight: bold;
+}
+
+#contact ul li a {
+  color: #007bff;
+}
+
+/* Code example styles */
+#code-example pre {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  clear: both;
+}
