@@ -18,7 +18,7 @@
         <header>
             <nav>
                 <ul class="nav-ul">
-                    <li><a href="#">About Me</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
                     <li><a href="#contact">Contact</a></li>
 
                     <li><a href="#skills">Skills</a></li>
@@ -29,111 +29,135 @@
         </header>
 
         <section class="hero">
-            <div class="hero-right">
-                <button class="btn-hi">Hello all &#128075 </button>
-                <h1>I’m Sardor Front-End Developer And Full Stack Developer</h1>
-            </div>
-
             <div class="hero-left">
-                <img src="/rsschool-cv/assets/Mask group 1.svg" alt="">
+                <button class="btn-hi">Hello all &#128075 </button>
+                <h1>I’m Sardor Front-End Developer <br> And Full Stack Developer</h1>
+                <button class="btn view-work">View My Work &#62</button>
+                <button class="btn contact-me">Contact Me</button>
+            </div>
 
+            <div class="hero-right">
+                <img src="/rsschool-cv/assets/Mask group 1.svg" alt="">
             </div>
         </section>
 
 
+        <main>
+            <section id="about-me" class="box">
+                <h2>About Me</h2>
+                <p>I am a junior software developer deeply passionate about web development, specializing in front-end
+                    technologies. My objective is to continually enhance my expertise while making meaningful
+                    contributions to projects. I excel in problem-solving and meticulous attention to detail, proficient
+                    in JavaScript, React, HTML, CSS, and proficient in leveraging Tailwind CSS for efficient styling. I
+                    have experience with GSAP for creating smooth and interactive animations. I thrive in collaborative
+                    settings and prioritize delivering polished, user-centric solutions.</p>
+            </section>
+
+            <section id="education" class="box">
+                <h2>Education</h2>
+                <h3>Bachelor of Science (Honours) in Information Technology</h3>
+                <p><strong>Asia Pacific University (APU) | Top 2.1% Universities Worldwide</strong><br>2018-2019</p>
+
+                <h3>BSc (Hons) in Computer Information Systems for Business</h3>
+                <p><strong>Management Development Institute of Singapore in Tashkent</strong><br>2020 - 2023</p>
+            </section>
+
+            <section id="skills" class="box">
+                <h2>Skills</h2>
+                <ul class="skill">
+                    <li><strong>Programming Languages:</strong> JavaScript, HTML, CSS, TypeScript</li>
+                    <li><strong>Frameworks and Libraries:</strong> React, Node.js, Next.js</li>
+                    <li><strong>Version Control:</strong> Git, GitHub</li>
+                    <li><strong>Development Tools:</strong> VS Code</li>
+                    <li><strong>Methodologies:</strong> Agile, Scrum</li>
+                    <li><strong>Design:</strong> Figma, Adobe XD</li>
+                </ul>
+            </section>
+
+            <div id="lang">
+                <div id="languages" class="box skill">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>English (Intermediate)</li>
+                        <li>Russian (Intermediate)</li>
+                        <li>Uzbek (Native)</li>
+                    </ul>
+                </div>
+
+                <div id="interests" class="box skill">
+                    <h2>Interests</h2>
+                    <ul>
+                        <li>Web development</li>
+                        <li>Open-source projects</li>
+                        <li>Travel and photography</li>
+                        <li>Algorithms</li>
+                    </ul>
+                </div>
+            </div>
 
 
-        <section id="contact">
-            <h2>Contact Information</h2>
-            <ul>
-                <li><strong>Email:</strong> sardornext@gmail.com</li>
-                <li><strong>Phone:</strong> +998950480066</li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/sardornext">sardornext</a></li>
-                <li><strong>Discord:</strong> sardorck</li>
-            </ul>
-        </section>
+            <!-- <div>
+                
+                    <h2>Projects</h2>
+                    <ul>
+                        <li><a href="https://dev.d1ia5zdfsjdq6.amplifyapp.com/">Portfolio Website</a></li>
+                        <li><a href="https://boilerrr.vercel.app/">Boiler Project</a></li>
+                    </ul>
+                
+            </div> -->
 
-        <section id="summary">
-            <h2>Summary</h2>
-            <p>I am a junior software developer deeply passionate about web development, specializing in front-end
-                technologies. My objective is to continually enhance my expertise while making meaningful contributions
-                to projects. I excel in problem-solving and meticulous attention to detail, proficient in JavaScript,
-                React, HTML, CSS, and proficient in leveraging Tailwind CSS for efficient styling. I have experience
-                with GSAP for creating smooth and interactive animations. I thrive in collaborative settings and
-                prioritize delivering polished, user-centric solutions.</p>
-        </section>
+            <!-- <div class="code">
+                <div class="code-example">
+                    <h2>Code Example</h2>
+                    <pre><code>
+                    function multiply(a, b){
+                        return a * b
+                    }
+                    
+                    const assert = require("chai").assert;
+                    
+                    describe("Multiply", () => {
+                        it("fixed tests", () => {
+                            assert.strictEqual(multiply(1,1), 1);
+                            assert.strictEqual(multiply(2,1), 2);
+                            assert.strictEqual(multiply(2,2), 4);
+                            assert.strictEqual(multiply(3,5), 15); 
+                            assert.strictEqual(multiply(5,0), 0);
+                            assert.strictEqual(multiply(0,5), 0);
+                            assert.strictEqual(multiply(0,0), 0); 
+                        });
+                    });
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Programming Languages:</strong> JavaScript, HTML, CSS, TypeScript</li>
-                <li><strong>Frameworks and Libraries:</strong> React, Node.js, Next.js</li>
-                <li><strong>Version Control:</strong> Git, GitHub</li>
-                <li><strong>Development Tools:</strong> VS Code</li>
-                <li><strong>Methodologies:</strong> Agile, Scrum</li>
-            </ul>
-        </section>
+                </code></pre>
+                </div>
 
-        <section id="code-example">
-            <h2>Code Example</h2>
-            <pre><code class="language-javascript">
-function multiply(a, b){
-  return a * b
-}
+            </div> -->
 
-const assert = require("chai").assert;
 
-describe("Multiply", () => {
-  it("fixed tests", () => {
-    assert.strictEqual(multiply(1,1), 1);
-    assert.strictEqual(multiply(2,1), 2);
-    assert.strictEqual(multiply(2,2), 4);
-    assert.strictEqual(multiply(3,5), 15); 
-    assert.strictEqual(multiply(5,0), 0);
-    assert.strictEqual(multiply(0,5), 0);
-    assert.strictEqual(multiply(0,0), 0); 
-  });
-});
-            </code></pre>
-        </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <h3>Bachelor of Science (Honours) in Information Technology</h3>
-            <p><strong>Asia Pacific University (APU) | Top 2.1% Universities Worldwide</strong><br>2018-2019</p>
+        </main>
 
-            <h3>BSc (Hons) in Computer Information Systems for Business</h3>
-            <p><strong>Management Development Institute of Singapore in Tashkent</strong><br>2020 - 2023</p>
-        </section>
 
-        <section id="languages">
-            <h2>Languages</h2>
-            <ul>
-                <li>English (Intermediate)</li>
-                <li>Russian (Intermediate)</li>
-                <li>Uzbek (Native)</li>
-            </ul>
-        </section>
 
-        <section id="interests">
-            <h2>Interests</h2>
-            <ul>
-                <li>Web development</li>
-                <li>Open-source projects</li>
-                <li>Travel and photography</li>
-                <li>Algorithms</li>
-            </ul>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="https://dev.d1ia5zdfsjdq6.amplifyapp.com/">Portfolio Website</a></li>
-                <li><a href="https://boilerrr.vercel.app/">Boiler Project</a></li>
-            </ul>
-        </section>
 
         <footer>
+            <nav>
+                <ul class="nav-ul">
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code-example">Code Example</a></li>
+
+                </ul>
+            </nav>
+
+            <div>
+                <h3>Contact</h3>
+                <p>Email: sardornext@gmail.com</p>
+                <p>Phone: +998 97 777 77 77</p>
+
+            </div>
             <p>&copy; 2024 Sardor Khomidjonov</p>
         </footer>
     </div>
