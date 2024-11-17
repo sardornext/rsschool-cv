@@ -18,26 +18,26 @@
         <header>
             <nav>
                 <ul class="nav-ul">
-                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#about-me">About Me</a></li>
                     <li><a href="#contact">Contact</a></li>
-
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#code-example">Code Example</a></li>
-
                 </ul>
             </nav>
         </header>
 
+
         <section class="hero">
             <div class="hero-left">
                 <button class="btn-hi">Hello all &#128075 </button>
+
                 <h1>I’m Sardor Front-End Developer <br> And Full Stack Developer</h1>
                 <button class="btn view-work">View My Work &#62</button>
                 <button class="btn contact-me">Contact Me</button>
             </div>
 
             <div class="hero-right">
-                <img src="/rsschool-cv/assets/Mask group 1.svg" alt="">
+                <img src="/assets/mask.svg" alt="mask svg">
             </div>
         </section>
 
@@ -96,45 +96,39 @@
             </div>
 
 
-            <div>
-                
-                    <h2>Projects</h2>
-                    <ul>
-                        <li><a href="https://dev.d1ia5zdfsjdq6.amplifyapp.com/">Portfolio Website</a></li>
-                        <li><a href="https://boilerrr.vercel.app/">Boiler Project</a></li>
-                    </ul>
-                
+            <div class="projects box " id="projects">
+
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="https://dev.d1ia5zdfsjdq6.amplifyapp.com/">Portfolio Website</a></li>
+                    <li><a href="https://boilerrr.vercel.app/">Boiler Project</a></li>
+                </ul>
+
             </div>
 
-            <div class="code">
+            <div class="code" id="code-example">
                 <div class="code-example">
                     <h2>Code Example</h2>
                     <pre><code>
                     function multiply(a, b){
                         return a * b
                     }
-                    
                     const assert = require("chai").assert;
-                    
                     describe("Multiply", () => {
                         it("fixed tests", () => {
                             assert.strictEqual(multiply(1,1), 1);
                             assert.strictEqual(multiply(2,1), 2);
                             assert.strictEqual(multiply(2,2), 4);
-                            assert.strictEqual(multiply(3,5), 15); 
+                            assert.strictEqual(multiply(3,5), 15);
                             assert.strictEqual(multiply(5,0), 0);
                             assert.strictEqual(multiply(0,5), 0);
-                            assert.strictEqual(multiply(0,0), 0); 
+                            assert.strictEqual(multiply(0,0), 0);
                         });
                     });
 
                 </code></pre>
                 </div>
-
             </div>
-
-
-
         </main>
 
 
@@ -143,7 +137,7 @@
         <footer>
             <nav>
                 <ul class="nav-ul">
-                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#about-me">About Me</a></li>
                     <li><a href="#contact">Contact</a></li>
 
                     <li><a href="#skills">Skills</a></li>
@@ -152,10 +146,10 @@
                 </ul>
             </nav>
 
-            <div>
+            <div id="contact">
                 <h3>Contact</h3>
                 <p>Email: sardornext@gmail.com</p>
-                <p>Phone: +998 90 000 00 00</p>
+                <p>Phone: +998 95 048 00 66</p>
 
             </div>
             <p>&copy; 2024 Sardor </p>
