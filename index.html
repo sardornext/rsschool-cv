@@ -152,9 +152,20 @@
                 <p>Phone: +998 95 048 00 66</p>
 
             </div>
-            <p>&copy; 2024 Sardor </p>
+            <p>
+                © <span id="year">2024</span> | Created by <a href="https://github.com/sardornext" target="_blank">Sardor</a>
+            </p>
+            <p>
+                <a href="https://rs.school/courses/javascript" target="_blank">
+                    <img src="./assets/rss-logo.svg" alt="RS School Logo" style="height: 30px;">
+                </a>
+            </p>
         </footer>
     </div>
 </body>
+<script>
+    const year = document.getElementById("year");
+    year.textContent = new Date().getFullYear();
+</script>
 
 </html>
