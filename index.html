@@ -153,7 +153,8 @@
 
             </div>
             <p>
-                © <span id="year">2024</span> | Created by <a href="https://github.com/sardornext" target="_blank">Sardor</a>
+                © <span id="year">2024</span> | Created by <a href="https://github.com/sardornext"
+                    target="_blank">Sardor</a>
             </p>
             <p>
                 <a href="https://rs.school/courses/javascript" target="_blank">
@@ -162,10 +163,11 @@
             </p>
         </footer>
     </div>
+    <script>
+        const year = document.getElementById("year");
+        year.textContent = new Date().getFullYear();
+    </script>
 </body>
-<script>
-    const year = document.getElementById("year");
-    year.textContent = new Date().getFullYear();
-</script>
+
 
 </html>
